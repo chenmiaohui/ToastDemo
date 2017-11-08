@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="toast.chenmh.com.toastdemo.ToastActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/toast1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="原始的Toast" />
+    <Button
+        android:id="@+id/toast2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不同位置的Toast"/>
+    <Button
+        android:id="@+id/toast3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义的Toast"/>
+    <Button
+        android:id="@+id/toast4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带图片的Toast"/>
+    <Button
+        android:id="@+id/toast5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带图片长时间显示的Toast"/>
+</LinearLayout>
